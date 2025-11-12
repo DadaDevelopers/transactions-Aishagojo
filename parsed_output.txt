@@ -1,0 +1,52 @@
+--- Parsed JSON ---
+{
+  "version": 2,
+  "is_segwit": true,
+  "vin": [
+    {
+      "txid": "c1368b8e3daedf15612b0185f79f4e82df90f6bcd93714e0e057c355d31c8131",
+      "vout": 1,
+      "scriptSig": "",
+      "sequence": 4294967293
+    }
+  ],
+  "vout": [
+    {
+      "value_sats": 500000,
+      "value_btc": 0.005,
+      "scriptPubKey": "001485d78eb795bd9c8a21afefc8b6fdaedf71836809"
+    },
+    {
+      "value_sats": 1050700,
+      "value_btc": 0.010507,
+      "scriptPubKey": "0014840ab165c9c2555d4a31b9208ad806f89d2535e2"
+    }
+  ],
+  "witnesses": [
+    [
+      "304402207bce86d430b58bb6b79e8c1bbecdf67a530eff3bc61581a1399e0b28a741c0ee0220303d5ce926c60bf15577f2e407f28a2ef8fe8453abd4048b716e97dbb1e3a85c01",
+      "0260828bc77486a55e3bc6032ccbeda915d9494eda17b4a54dbe3b24506d40e4ff"
+    ]
+  ],
+  "locktime": 918339,
+  "txid_computed": "04f487fe9754a925c2e96492afeab47e7c839d0582eef80b3ecc9ca3afa05842",
+  "wtxid_computed": "091294831c9019d4f1dc4f3c0e282cc2591a2c42d0059358a23ba03d01cbb4cc"
+}
+
+--- Short summary ---
+Version: 2
+SegWit: True
+Inputs: 1
+ Input 0: txid=c1368b8e3daedf15612b0185f79f4e82df90f6bcd93714e0e057c355d31c8131 vout=1 sequence=0xfffffffd
+Outputs: 2
+ Output 0: 500000 sats (0.005 BTC)
+  scriptPubKey hex (len=22): 001485d78eb795bd9c8a21afefc8b6fdaedf71836809
+ Output 1: 1050700 sats (0.010507 BTC)
+  scriptPubKey hex (len=22): 0014840ab165c9c2555d4a31b9208ad806f89d2535e2
+Witnesses present:
+ Input 0 witness items: 2
+  [0] len=71 hex=304402207bce86d430b58bb6b79e8c1bbecdf67a530eff3bc61581a1399e0b28a741c0ee0220303d5ce926c60bf15577f2e407f28a2ef8fe8453abd4048b716e97dbb1e3a85c01
+  [1] len=33 hex=0260828bc77486a55e3bc6032ccbeda915d9494eda17b4a54dbe3b24506d40e4ff
+Locktime: 918339 (hex 000e0343)
+txid (computed): 04f487fe9754a925c2e96492afeab47e7c839d0582eef80b3ecc9ca3afa05842
+wtxid (computed): 091294831c9019d4f1dc4f3c0e282cc2591a2c42d0059358a23ba03d01cbb4cc
